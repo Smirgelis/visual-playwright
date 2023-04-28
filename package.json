@@ -1,0 +1,20 @@
+{
+  "name": "visual-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test:update": "playwright test --update-snapshots",
+    "test:run": "npx playwright test"
+  },
+  "dependencies": {
+    "playwright": "^1.33.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
+  }
+}
