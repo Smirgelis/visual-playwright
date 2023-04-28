@@ -9,7 +9,7 @@ yarn install
 ```
 yarn test:run
 ```
-### To update the baseline of the website screenshots
+### To update the baseline of the website screenshots or if there is no baseline screenshots
 ```
 yarn test:update
 ```
