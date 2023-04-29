@@ -12,7 +12,7 @@ This is a visual testing solution that uses Playwright Test framework to capture
 
 To install Playwright Test framework, run the following command:
 
-npm install -g @playwright/test `
+yarn add -g @playwright/test `
 
 Usage
 -----
@@ -21,7 +21,7 @@ Usage
 
 To run the visual tests, run the following command:
 
-`npm run test:run`
+`yarn test:run`
 
 This will execute the script that captures full-page screenshots of each website specified in the `website.json` file and compares them against reference screenshots.
 
@@ -29,7 +29,7 @@ This will execute the script that captures full-page screenshots of each website
 
 If the website design changes, the reference screenshots must be updated. To do so, run the following command:
 
-`npm run test:update`
+`yarn test:update`
 
 This will update the reference screenshots for each website in the `screenshots` directory.
 
