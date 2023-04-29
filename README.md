@@ -12,7 +12,7 @@ This is a visual testing solution that uses Playwright Test framework to capture
 
 To install Playwright Test framework, run the following command:
 
-yarn add -g @playwright/test `
+`yarn add -g @playwright/test`
 
 Usage
 -----
