@@ -7,7 +7,7 @@ for (const website of websites) {
         await page.waitForLoadState('networkidle');
         const screenshotPath = `screenshots/${website}-fullpage.png`;
         await page.screenshot({ path: screenshotPath, fullPage: true });
-        expect(await page.screenshot({ fullPage: true })).toMatchSnapshot(screenshotPath, { toMatchOptions: { threshold: 80 } });
+        expect(await page.screenshot({ fullPage: true })).toMatchSnapshot(screenshotPath, { toHaveScreenshot: { maxDiffPixels: 10 } });
     });
 }
 
