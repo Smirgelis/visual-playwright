@@ -1,4 +1,4 @@
-# Visual Testing Solution using Playwright Test
+# Visual Testing Solution using Playwright
 
 This is a visual testing solution that uses Playwright Test framework to capture full-page screenshots of multiple websites and compare them against reference screenshots to detect any visual differences.
 
